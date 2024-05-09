@@ -79,13 +79,13 @@ styledText("Hello, World!", Colors.blue + Colors.backgroundCyan + Colors.bold + 
 ### Stability
 The condition is simply 🟩 for working as intended and easy to work with, <br>
 🔶 for bit jancky or challenging to work with, but no high security risico, <br>
-and 🟥 for broken, not working or hard to work with, and or high security risico.
+and 🔴 for broken, not working or hard to work with, and or high security risico.
 
 | Feature | Stability | Condition |
 | ----------- | :-----------: | :--: |
 | Colored text | Stable | 🔶 |
-| Logging | Unstable | 🟥 |
-| Excition() | Unstable | 🟥 |
+| Logging | Unstable | 🔴 |
+| Excition() | Unstable | 🔴 |
 | Annontation | Can't mess up| 🟩 |
 
 --- 
