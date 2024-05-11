@@ -55,8 +55,13 @@ class Colors {
         @SinceSilentColors("1.2")
         @SinceSilentLib("1.0")
         @SilentColors
-        fun styledText(text: String, color: String?): String{
-            return color+text+Colors.resetColor
+        @SilentLib.inlineOnly
+        public inline fun styledText(text: String, color: String?){
+            return println(color+text+Colors.resetColor)
+        }
+        @SilentLib.inlineOnly
+        public inline fun styledText(text: String, color: String?, end:String?){
+            return print(color+text+Colors.resetColor)
         }
     }
 
