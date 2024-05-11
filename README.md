@@ -13,7 +13,7 @@ SilentLib is a library mainly focused on making behind stage functions like styl
 #### ANSI colors
 * ANSI colors. Usage:
 ```Kotlin
-print(Colors.blue + "Hello, World!" + Colors.resetColor)
+println(Colors.blue + "Hello, World!" + Colors.resetColor)
 ```
 
 ---
