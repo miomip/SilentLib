@@ -86,7 +86,7 @@ and 🔴 for broken, not working or hard to work with, and or high security risi
 | styledText() | Unstable | 🔶 |
 | Logging | Unstable | 🔴 |
 | Excition() | Unstable | 🔴 |
-| Annontation | Can't mess up| 🟩 |
+| Annontation | undone| 🟩 |
 
 --- 
 
